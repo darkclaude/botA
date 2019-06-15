@@ -1,0 +1,13 @@
+sudo apt-get install curl python-software-properties
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+Use LTS Release : At the last update of this tutorial, Node.js 10.15.3 is the LTS release available.
+
+sudo apt-get install curl python-software-properties
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+For this tutorial, I am using the latest current release and added their PPA to my system.
+
+Step 2 – Install Node.js on Ubuntu
+
+You can successfully add Node.js PPA to Ubuntu system. Now execute the below command install Node on and Ubuntu using apt-get. This will also install NPM with node.js. This command also installs many other dependent packages on your system.
+
+sudo apt-get install nodejs
