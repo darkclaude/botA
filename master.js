@@ -7,7 +7,7 @@ var socketIO=require('socket.io')
 const io = socketIO(server);
 io.on('connection', client => {
   client.on('event', data => { /* … */ });
-  client.on('disconnect', () => { /* … */ });
+  client.on('disconnect', () => { console.log("client ") });
   console.log("Client: "+client.id+" connected");
 });
 var url = "http://google.com";
