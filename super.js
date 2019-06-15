@@ -69,8 +69,8 @@ function mail(){
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-          user: 'instantpins@gmail.com', //email address to send from
-          pass: 'ninjaxkid12' //the actual
+          user: '', //email address to send from
+          pass: '' //the actual
         }
       })
     
